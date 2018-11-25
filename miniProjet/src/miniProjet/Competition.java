@@ -19,6 +19,19 @@ public class Competition {
     	this.matchTable=match;
     	
     } // constructeurs
+   
+    public int getNumeroTours() {
+		return numeroTours;
+	}
+    
+    public Match[] getMatchTable() {
+		return matchTable;
+	}
+    
+    public void saisie (Match m) {
+    	
+    }    	//  remplissage de tableau ; (apellé pendant la creation d'un match)
+
     
     
 }
